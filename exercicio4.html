@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar</title>
+</head>
+
+<script>
+
+//Considerando a figura acima, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas.
+// O usuário irá informar os valores de cada variável.
+
+
+//Retangulo
+let base = prompt("Insira a base do retângulo:");{
+let altura = prompt("Insira a altura do retângulo:");
+base = parseFloat(base);
+altura = parseFloat(altura);
+let area = base * altura;
+alert("A área do retângulo é: " + area);
+}
+
+//Quadrado
+let lado = prompt("Insira a medida do lado do quadrado:");{
+lado = parseFloat(lado);
+let area = lado * lado;
+alert("A área do quadrado é: " + area);
+}
+
+//Losango
+let diagonalMaior = prompt("Digite o valor da diagonal maior do losango:"); {
+let diagonalMenor = prompt("Digite o valor da diagonal menor do losango:");
+
+
+diagonalMaior = parseFloat(diagonalMaior);
+diagonalMenor = parseFloat(diagonalMenor);
+
+let area = (diagonalMaior * diagonalMenor) / 2;
+
+alert("A área do losango é: " + area);
+}
+
+//Trapézio
+let baseMaior = prompt("Digite o valor da base maior do trapézio:"); {
+let baseMenor = prompt("Digite o valor da base menor do trapézio:");
+let altura = prompt("Digite o valor da altura do trapézio:");
+
+baseMaior = parseFloat(baseMaior);
+baseMenor = parseFloat(baseMenor);
+altura = parseFloat(altura);
+
+let area = ((baseMaior + baseMenor) * altura) / 2;
+alert("A área do trapézio é: " + area);
+}
+
+//Paralelogramo
+let base2 = prompt("Digite o valor da base do paralelogramo:");{
+let altura = prompt("Digite o valor da altura do paralelogramo:");
+
+
+base = parseFloat(base2);
+altura = parseFloat(altura);
+
+let area = base * altura;
+alert("A área do paralelogramo é: " + area);
+}
+
+//Triângulo
+let base3 = prompt("Digite o valor da base do triângulo:"); {
+let altura = prompt("Digite o valor da altura do triângulo:");
+
+
+base = parseFloat(base);
+altura = parseFloat(altura);
+
+let area = (base * altura) / 2;
+alert("A área do triângulo é: " + area);
+}
+
+//Círculo
+let raio = prompt("Digite o valor do raio do círculo:"); {
+
+raio = parseFloat(raio);
+
+let area = Math.PI * Math.pow(raio, 2);
+alert("A área do círculo é: " + area.toFixed(2));
+}
+
+
+
+
+
+</script>
+
+<body>
+    
+</body>
+</html>
